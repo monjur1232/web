@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Monjur | Java Developer</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #f3daf3, #e1f4f4);
+    }
+    .header {
+      background: linear-gradient(300deg, #0562c7, #3d029b);
+      color: white;
+      padding: 10px 10px;
+    }
+    .header img {
+      width: 220px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
+    }
+    .header h1 {
+      font-weight: 700;
+      font-size: 60px;
+      margin-bottom: 10px;
+    }
+    .header h3 {
+      font-weight: 600;
+      font-size: 40px;
+      margin-bottom: 20px;
+      color: #ffd966;
+    }
+    .contact-info a {
+      color: white;
+      text-decoration: none;
+      transition: 0.3s;
+      font-size: 20px;
+      font-weight: 550;
+    }
+    .contact-info a:hover {
+      color: #fc99f6;
+    }
+    .contact-info h5 {
+      margin: 12px 0;
+    }
+    .social-links a {
+      color: white;
+      margin-right: 20px;
+      font-size: 20px;
+      font-weight: 550;
+      text-decoration: none;
+      transition: 0.3s;
+      margin-right: 19px;
+    }
+    .social-links a:hover {
+      color: #73fa42;
+    }
+    .contact-info i {
+      margin-right: 10px;
+    }
+    .social-links i {
+      margin-right: 10px;
+    }
+
+    .gallery {
+      padding: 46px 20px;
+    }
+    .gallery h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-weight: 600;
+      color: #000000;
+    }
+
+    .card {
+      height: 258px;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: center;
+      text-align: center;
+      border-radius: 15px;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: contain;
+      background: #f6f0f0db;
+      padding: 10px;
+      transition: transform 0.3s ease;
+    }
+    .card-body {
+      margin-top: 1px;
+    }
+    .card-title {
+      font-weight: 600;
+      font-size: 18px;
+      color: #220ce4;
+    }
+
+    footer {
+      background: #343a40;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="header">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <div class="col-md-4 text-center mb-3 mb-md-0">
+          <img src="Professional-Picture.jpg" alt="My Professional Picture" class="img-fluid">
+        </div>
+
+        <div class="col-md-8 text-center text-md-start">
+          <h1>Md Monjur Morshed</h1>
+          <h3>Full Stack Java Developer</h3>
+          <div class="contact-info">
+            <h5>
+              <a href="mailto:monjur1232@gmail.com">
+                <i class="bi bi-envelope"></i> monjur1232@gmail.com
+              </a>
+            </h5>
+            <h5>
+              <a href="tel:+8801677196520">
+                <i class="bi bi-phone"></i> +880 1677 196520
+              </a>
+            </h5>
+          </div>
+
+          <h5 class="social-links d-flex flex-wrap justify-content-center justify-content-md-start">
+            <a href="https://www.linkedin.com/in/monjur1232" target="_blank" class="d-flex align-items-center">
+              <i class="bi bi-linkedin"></i><span class="ms-2">LinkedIn</span>
+            </a>
+            <a href="https://github.com/monjur1232" target="_blank" class="d-flex align-items-center">
+              <i class="bi bi-github"></i><span class="ms-2">GitHub</span>
+            </a>
+          </h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery container">
+    <h2>My Essentials</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <a href="https://drive.google.com/file/d/1qUXx2YmFE2ekS2oA7jlPp6d1ZDXmvJzs/view?usp=drive_link" target="_blank" class="text-decoration-none">
+          <div class="card shadow-sm">
+            <img src="NID-Card.jpg" alt="My National ID Card">
+            <div class="card-body">
+              <h5 class="card-title">My National ID Card</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-md-4">
+        <a href="https://drive.google.com/file/d/1thYwi0BGwqedERMn-n01mF8zmO39TxSF/view?usp=drive_link" target="_blank" class="text-decoration-none">
+          <div class="card shadow-sm">
+            <img src="Professional-Picture.jpg" alt="My Professional Picture">
+            <div class="card-body">
+              <h5 class="card-title">My Professional Picture</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-md-4">
+        <a href="https://drive.google.com/file/d/1UGNUuOWc3D2cjCAH8cpmG7cKkjJPEdwI/view?usp=drive_link" target="_blank" class="text-decoration-none">
+          <div class="card shadow-sm">
+            <img src="Birth-Registration.jpg" alt="My Birth Registration">
+            <div class="card-body">
+              <h5 class="card-title">My Birth Registration</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Md Monjur Morshed | All Rights Reserved</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+</body>
+</html>
